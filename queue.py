@@ -3,7 +3,7 @@ class Queue():
         self._queue = []
     
     def enqueue(self,x):
-        self._queue.appned(x)
+        self._queue.append(x)
 
     def dequeue(self):
         if self.is_empty():
